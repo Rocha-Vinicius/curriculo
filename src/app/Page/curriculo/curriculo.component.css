@@ -1,0 +1,52 @@
+hr {
+    color: var(--text-body);
+}
+
+.spaceP {
+    margin-left: 3%;
+    font-size: 13px;
+    margin-bottom: 0%;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.display {
+    display: inline;
+}
+
+.card {
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 7px 5px var(--shadow);
+    -moz-box-shadow: 9px 7px 5px var(--shadow);
+    box-shadow: 9px 7px 5px var(--shadow);
+
+    background-color: var(--primary);
+}
+
+.btn-custom {
+    position:relative;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+}
+
+.btn-custom:hover {
+    background-color: rgba(219, 212, 212, 0.589);
+}
+
+.btn-icon {
+    padding: 5px;
+    color: var(--iconColor);
+    font-size: 1rem;
+}
+
+.mgt {
+    margin-top: 2%;
+}
+
+.line {
+    display: flex;
+}

@@ -1,0 +1,20 @@
+.line {
+    display: flex;
+}
+
+.btn-custom {
+    position:relative;
+    padding: 1px 5px -5px 2px;
+    border-radius: 50px;
+}
+
+.btn-custom:hover {
+   top:2px;
+   box-shadow:0 2px 2px #666;
+}
+
+.btn-icon {
+    padding: 2px;
+    color: var(--iconColor);
+    font-size: 2rem;
+}

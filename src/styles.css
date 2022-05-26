@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+button {
+    background: none;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+    color: var(--text-body);
+}
+
+path{
+    color: var(--iconColor);
+}
+
+:root {
+    --primary: #fff;
+    --iconColor: #000000;
+    --background-tooltip: #383838;
+    --text-tooltip: #ffffff;
+    --shadow: rgba(50, 50, 50, 0.77);
+    --body: #e6e3e3;
+    --text-body: #4B4B4B;
+}
+
+:root .dark-theme {
+    --primary: #073477;
+    --iconColor: #fff;
+    --background-tooltip: #ece3e3;
+    --text-tooltip: #0c0c0c;
+    --shadow: rgba(241, 59, 59, 0.733);
+    --body: #021735;
+    --text-body: #FFF;
+}
+
+.bgcolor {
+    background-color: var(--body);
+}
+
+[data-tooltip] {
+    position: relative;
+    font-weight: lighter;
+}
+
+[data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: -45px;
+    padding: 5px;
+    border-radius: 3px;
+    left: calc(100% + auto);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: var(--background-tooltip);
+    color: var(--text-tooltip);
+}
+
+[data-tooltip]:hover:after {
+    display: block;
+}
